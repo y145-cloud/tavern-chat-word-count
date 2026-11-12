@@ -1,0 +1,12 @@
+{
+    "display_name": "角色卡字数统计",
+    "loading_order": 100,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "Local",
+    "version": "0.1.1",
+    "description": "按角色卡统计所有聊天的字数，可按标签排除或只取正文（如 <content>），分聊天查看，并支持千楼分页。",
+    "homePage": ""
+}
