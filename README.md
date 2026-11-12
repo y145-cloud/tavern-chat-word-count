@@ -24,9 +24,21 @@
 
 ### TauriTavern
 
-> TauriTavern 的“安装扩展”界面只接受 Git 地址，不识别 zip；请先把压缩包解压，再把 `chat-word-count` 文件夹复制到下面任一目录，然后刷新页面。
+> TauriTavern 的“安装扩展”界面只接受 Git 地址，不识别 zip。
 
-二选一：
+**方式 A：Git 安装（推荐）**
+
+在 TT 的扩展安装界面填入：
+
+```text
+https://github.com/y145-cloud/tavern-chat-word-count
+```
+
+仓库根目录就是 `manifest.json` 所在目录，安装后在扩展列表里启用即可。
+
+**方式 B：手动复制**
+
+下载 zip 后解压，把包含 `manifest.json` 的文件夹复制到下面任一目录。文件夹名可以任意，下面以 `chat-word-count` 为例。
 
 1. **本地扩展（推荐）**
    把整个 `chat-word-count` 文件夹放到：
